@@ -3,14 +3,25 @@ import React from 'react'
 
 
 const Logo = () => {
+  const textLogo = "Thai-Nichi";
+  const isTH = true
   return (
     <View>
-      <Text style={styles.textLogo}>TNI</Text>
+      <Text style={styles.TextLogo}>TNI</Text>
+      <Text>{textLogo}</Text>
+      {/* {
+        isTH && <Text>ภาษาไทย</Text>
+      } */}
+      {
+        isTH
+        ?(<text>ภาษาไทย</text>)
+        :(<text>ภาษาอังกฤษ</text>)
+      }
     </View>
   )
 }
 const styles = StyleSheet.create({
-  textLogo:{
+  TextLogo:{
       color:"red",
       fontSize:40
   }

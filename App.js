@@ -1,16 +1,13 @@
-import { View, Text, StyleSheet } from "react-native";
-import React from "react";
-import Styles from "./components/Styles";
-import StySheet from "./components/StySheet";
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import User from './components/User'
 
 const App = () => {
   return (
-    <View style={Styles.container}>
-      {/* <Text style={[Styles.title,Styles.warning]}>Hello React Native</Text> */}
-      <StySheet/>
-    </View>
-  );
-};
+    <User/>
+  )
+}
 
-export default App;
+export default App
 
+const styles = StyleSheet.create({})
