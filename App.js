@@ -1,18 +1,19 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import Count from "./components/Count";
-import InputText from "./components/InputText";
-import UserNameandPassWord from "./components/UserNameandPassWord";
 import UserNamePassword from "./components/UserNamePassword";
+import AlertComponent from "./components/AlertComponent";
+import ImageWithTextInput from "./components/ImageWithTextInput";
+import Touchable_Example from "./components/Touchable_Example";
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <UserNamePassword/>
-      {/* <UserNameandPassWord /> */}
-      {/* <InputText/> */}
-      {/* <Count/>
-      <LotsOfGreeting/> */}
+      <Touchable_Example/>
+      {/* <ButtonExample/> */}
+      {/* <ImageWithTextInput/> */}
+      {/* <AlertComponent/> */}
+      {/* <UserNamePassword/> */}
+
     </View>
   );
 };
