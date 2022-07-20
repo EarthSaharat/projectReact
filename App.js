@@ -4,12 +4,13 @@ import UserNamePassword from "./components/UserNamePassword";
 import AlertComponent from "./components/AlertComponent";
 import ImageWithTextInput from "./components/ImageWithTextInput";
 import Touchable_Example from "./components/Touchable_Example";
+import ButtonExample from "./components/ButtonExample";
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Touchable_Example/>
-      {/* <ButtonExample/> */}
+      {/* <Touchable_Example/> */}
+      <ButtonExample/>
       {/* <ImageWithTextInput/> */}
       {/* <AlertComponent/> */}
       {/* <UserNamePassword/> */}
