@@ -22,7 +22,10 @@ const Touchable_Example = () => {
         style={styles.button}
           onPress={() => onPress('TouchableNativeFeedback Pressed')}
           >      
-                  <Text>TouchableNativeFeedback(Only andoid)</Text>
+          <View style={styles.button}>
+            <Text>TouchableNativeFeedback(Only andoid)</Text>
+            </View>
+                  
         </TouchableNativeFeedback>
 
         <TouchableHighlight
@@ -40,7 +43,7 @@ const Touchable_Example = () => {
         </TouchableOpacity>
 
         <TouchableWithoutFeedback
-            onPress={() => onPress('TouchableOpacity Pressed')}
+            onPress={() => onPress('TouchableWithoutFeedback Pressed')}
         >
             <View style={styles.button}>
                 <Text>TouchableWithoutFeedback</Text>
