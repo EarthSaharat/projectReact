@@ -19,7 +19,7 @@ const Touchable_Example = () => {
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.container}>
         <TouchableNativeFeedback
-        style={styles.button}
+
           onPress={() => onPress('TouchableNativeFeedback Pressed')}
           >      
           <View style={styles.button}>
